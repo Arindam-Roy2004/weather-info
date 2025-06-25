@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const description = document.querySelector('#description');
     const errorMessage = document.querySelector('#error-message');
     const icon = document.querySelector('.icon');
-    const apiKey = '074abbeb34dc74fa999fe34ddb274ad3';
+    const apiKey = 'your_api_key';
 
     searchBtn.addEventListener('click', async () => {
         const city = cityInput.value.trim();
